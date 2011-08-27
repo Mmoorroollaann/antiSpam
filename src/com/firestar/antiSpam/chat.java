@@ -46,7 +46,7 @@ public class chat extends PlayerListener {
 				}
 				if(tmpderp>=maxMSG){
 					if(mcb!=null){
-						mcb.mcb_handler.ban(event.getPlayer().getName(), "console", "spamBot", "g");
+						mcb.mcb_handler.ban(event.getPlayer().getName(), "[antiSpam]", "SpamBot", "g");
 					}else{
 						event.getPlayer().kickPlayer("Stop spamming!");
 					}
